@@ -34,7 +34,7 @@ body {
   line-height: 1.5;
   font-size: 18px;
   letter-spacing: .1em;
-  background: var(--dark);
+  background: var(--primary);
   color: var(--light);
   font-family: 'Poiret One', cursive;
 
@@ -243,7 +243,7 @@ textarea {
 }
 
 .modalBackdrop {
-	background: rgba(0, 0, 0, .65);
+	background: rgba(219, 100, 213, 0.65);
 	bottom: 0;
 	left: 0;
 	overflow: auto;
