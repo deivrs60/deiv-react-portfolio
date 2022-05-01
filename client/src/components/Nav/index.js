@@ -5,11 +5,6 @@ function Nav({ currentPage, handlePageChange}) {
 
     return (
         <header>
-            <h2>
-                <a href="/" style={{textDecoration: 'none' }}>
-                    D E I V
-                </a>
-            </h2>
             <nav>
                 <ul className=" nav flex-container navbar-right">
                     <li>

@@ -1,16 +1,21 @@
 import React from 'react';
 import Nav from '../Nav';
-import { Link } from 'react-router-dom'
 
-function Header() {
+
+function Header({currentPage, handlePageChange}) {
 
     return(
         <header className="flex-row px-1">
             <div className="logo">
-                <h1>
-                    <Link to="/"> D E I V </Link>
+                <h1 className="text-left">
+                <a href="/" style={{textDecoration: 'none' }}>
+                    D E I V 
+                 </a>   
                 </h1>
-                <Nav></Nav>
+                <Nav
+                    currentpage={currentPage}
+                    handlePageChange={handlePageChange}
+                />
             </div>
         </header>
     );
