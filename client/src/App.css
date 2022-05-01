@@ -110,9 +110,16 @@ footer h1 svg {
   color: #DE82FF;
 }
 
+#flex-a,
+#flex-b,
+#flex-c {
+  display: flex;
+  flex-flow: column;
+}
+
 /* mobile responsiveness for ABOUT SECTION */
 
-@media screen and (max-width: 1385px) {
+@media screen and (max-width: 1570px) {
   .selfie {
     margin-top: 0;
   }
@@ -120,8 +127,20 @@ footer h1 svg {
   #about,
   #intro {
     text-align: center;
+    display: flex;
+    flex-flow: column;
+  }
+  #flex-a {
+    order: 1;
+  }
+  #flex-b {
+    order: 3;
   }
 
+  #flex-c {
+    order: 1;
+  }
+  
 
 }
   

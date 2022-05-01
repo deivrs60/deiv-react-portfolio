@@ -11,13 +11,13 @@ function About() {
             <img src={selfie} className="selfie" style={{ width: "400px" }} alt=" Deiv"></img>
              </section>
              <section className="my-5" id="intro">
-                <h1>Hi, 
+                <h1 id="flex-">Hi, 
                         <br></br>
                     My name is 
                         <br></br>
                     David Reyes Santoyo,
                         <br></br>
-                    Also known as Deiv!</h1>
+                    but you can call me Deiv!</h1>
                         <br></br>
                         <br></br>
                 <p>
