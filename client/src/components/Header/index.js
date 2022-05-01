@@ -69,7 +69,7 @@ function Header() {
                 ></Nav>
                 </div>
             </header>
-            <div>
+            <div id="mainbody">
                 <main className="container pb-5">
                     { renderContent() }
                 </main>

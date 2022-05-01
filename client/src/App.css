@@ -60,3 +60,41 @@ header {
 nav li {
   color: white;
 }
+
+#about {
+  text-align: right;
+}
+
+#intro {
+  text-align: right;
+}
+
+#nameimg, 
+#intro {
+  display: inline-block;
+  justify-content:space-evenly;
+  padding-left: 100px;
+  padding-right: 100px;
+  margin-bottom: 0;
+}
+
+#nameimg {
+  padding-top: -50px;
+  margin-top: -50px;
+}
+#intro {
+  margin-top: 15px;
+}
+
+.selfie {
+  border-radius: 25px;
+  margin-top: -150px;
+}
+
+#mainbody {
+  background-color: #DE82FF;
+}
+
+html {
+  background-color: #DE82ff;
+}
