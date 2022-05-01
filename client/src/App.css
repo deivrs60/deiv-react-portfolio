@@ -119,28 +119,44 @@ footer h1 svg {
 
 /* mobile responsiveness for ABOUT SECTION */
 
-@media screen and (max-width: 1570px) {
+@media screen and (max-width: 1400px) {
   .selfie {
     margin-top: 0;
   }
+}
 
-  #about,
+@media screen and (max-width: 1300px) {
+  #nameimg {
+    justify-content: center;
+    padding-left: 100px;
+    margin-left: 250px;
+
+  }
+
   #intro {
     text-align: center;
     display: flex;
     flex-flow: column;
+    justify-content: center;
   }
-  #flex-a {
-    order: 1;
-  }
-  #flex-b {
-    order: 3;
-  }
-
-  #flex-c {
-    order: 1;
-  }
-  
 
 }
-  
+
+
+@media screen and (max-width: 1200px) {
+   #nameimg {
+     margin-left: 150px;
+   }
+}
+
+@media screen and (max-width: 975px) {
+  #nameimg {
+    margin-left: 50px;
+  }
+}
+
+@media screen and (max-width: 775px) {
+  #nameimg {
+    margin-left: 15px;
+  }
+}
