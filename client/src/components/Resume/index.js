@@ -7,14 +7,14 @@ function Resume() {
 
     return (
        <div className="resume-body">
-           <h2 className="p-4">Resume</h2>
+           <h1 className="p-4 restitle">Resume</h1>
            <div className="download-here">
-               <h3 className="p-3">
+               <h2 className="p-3 restext">
                    Please feel free to download my resume
-                   <a href={resume} target="_blank" rel="noopener noreferrer"> HERE </a>
-               </h3>
+                   <a href={resume} target="_blank" rel="noopener noreferrer" className="reslink"> HERE </a>
+               </h2>
            </div>
-           <div className="resumebody p-3">
+           <div className="resumebody">
                <div className="fe-experience">
                    <h3>Front-End Experience</h3>
                    <ul>
