@@ -1,15 +1,15 @@
 import React from 'react';
 
 
-function Projects() {
+function ProjectPortfolio() {
 
     return (
         <section className="my-5">
-            These are the projects
+            This is the Project Page
         </section>
         
     );
 }
 
 
-export default Projects;
+export default ProjectPortfolio;

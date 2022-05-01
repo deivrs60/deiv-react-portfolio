@@ -1,25 +1,55 @@
 import React from 'react';
 
 
-function Nav({ currentPage, handlePageChange}) {
+function Nav(props) {
+    const {
+        setContactSelected,
+        setProjectSelected,
+        setResumeSelected,
+        categories,
+        currentCategory,
+        setCurrentCategory
+    } = props;
 
     return (
-        <header>
-            <nav>
-                <ul className=" nav flex-container navbar-right">
-                    <li>
-                        <a href="about" onclick={() => handlePageChange('About')}
-                        className= { currentPage === 'About' ? 'nav-link active' : 'nav-link'}
-                        style={{ textDecoration: 'none' }} > 
-                            About Me
-                        </a>
-                    </li>
-
+        <nav className ="navbar navbar-expand lg float-right">
+            <div className="container-fluid">
+                <ul className="navbar-nav me-auto mb-2 mb-lg-0 h4">
+                    {categories.map((category => (
+                        <li className={`nav-item mx-3 ${
+                            currentCategory === category && 'navActive'
+                        }`}
+                        key = { category }>
+                            <span onClick = { () => {
+                                setCurrentCategory(category)
+                                if(category === 'Project Portfolio') {
+                                    setContactSelected(false)
+                                    setProjectSelected(true)
+                                    setResumeSelected(false)
+                                }  else if(category === 'Contact') {
+                                    setContactSelected(true)
+                                    setProjectSelected(false)
+                                    setResumeSelected(false)
+                                } else if(category === 'Resume') {
+                                    setContactSelected(false)
+                                    setProjectSelected(false)
+                                    setResumeSelected(true)
+                                } else {
+                                    setContactSelected(false)
+                                    setProjectSelected(false)
+                                    setResumeSelected(false)
+                                }
+                            }}>
+                                {category}
+                            
+                            </span>
+                        </li>
+                    )))}
                 </ul>
+            </div>
+        </nav>
 
-            </nav>
-        </header>
-    );
+    )
 }
 
 

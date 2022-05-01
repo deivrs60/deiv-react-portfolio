@@ -5,7 +5,7 @@ function Contact() {
 
     return (
         <section className="my-5">
-            This is the Contact
+            This is the Contact Page
         </section>
         
     );
