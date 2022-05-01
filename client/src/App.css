@@ -104,6 +104,7 @@ footer h1 svg {
 .be-experience h3 {
   font-size: 30px;
   font-weight:700;
+  color: black;
   /* text-shadow: 10px 0 10px rgba(0, 0, 0, 0.5); */
 
 }
@@ -120,7 +121,6 @@ footer h1 svg {
 .fe-experience li,
 .be-experience li {
   text-align: center;
-  color: black;
 }
 
 .form-container {
