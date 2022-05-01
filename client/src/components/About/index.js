@@ -15,7 +15,9 @@ function About() {
                         <br></br>
                     My name is 
                         <br></br>
-                    David Reyes Santoyo!</h1>
+                    David Reyes Santoyo,
+                        <br></br>
+                    Also known as Deiv!</h1>
                         <br></br>
                         <br></br>
                 <p>

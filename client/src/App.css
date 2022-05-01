@@ -37,6 +37,7 @@
   }
 } */
 
+/* header css*/
 #mainlogo a {
   border-bottom: ridge;
   border-right: ridge;
@@ -61,10 +62,8 @@ nav li {
   color: white;
 }
 
-#about {
-  text-align: right;
-}
-
+/* ABOUT SECTIONS CSS */
+#about, 
 #intro {
   text-align: right;
 }
@@ -92,9 +91,26 @@ nav li {
 }
 
 #mainbody {
-  background-color: #DE82FF;
+  background-image: linear-gradient(to bottom right, #FFFFFF ,#FC9EFF, #6A0DAD);
 }
 
 html {
-  background-color: #DE82ff;
+  background-image: linear-gradient(to bottom right, #FFFFFF ,#DE82FF, #6A0DAD);
 }
+
+
+/* mobile responsiveness for ABOUT SECTION */
+
+@media screen and (max-width: 1385px) {
+  .selfie {
+    margin-top: 0;
+  }
+
+  #about,
+  #intro {
+    text-align: center;
+  }
+
+
+}
+  
