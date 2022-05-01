@@ -23,10 +23,10 @@
 
   ## Description ##
   A portfolio designed to showcase all of the abilities and skills I've learned throughout the UC Berkeley Extension Bootcamp! Made using React.JS for the Front-End functionality and Bootstrap/CSS for styling, it's come a long way from my original portfolio! Note: This has no back-end implementation yet! 
-  ![screenshot](./client/src/assets/images/aboutss.png)
-  ![screenshot](./client/src/assets/images/portfolioss.png)
-  ![screenshot](./client/src/assets/images/resumess.png)
-  ![screenshot](./client/src/assets/images/contactss.png)
+  ![screenshot](./src/assets/images/aboutss.png)
+  ![screenshot](./src/assets/images/portfolioss.png)
+  ![screenshot](./src/assets/images/resumess.png)
+  ![screenshot](./src/assets/images/contactss.png)
 
   ## License ##
   This is licensed under MIT
