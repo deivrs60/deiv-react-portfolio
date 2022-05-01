@@ -119,6 +119,13 @@ footer h1 svg {
   text-align: center;
 }
 
+.form-container {
+  justify-content: center;
+}
+
+input,
+form-control {  border-radius: 15px;
+}
 /* mobile responsiveness */
 
 @media screen and (max-width: 1400px) {

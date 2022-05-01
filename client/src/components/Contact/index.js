@@ -24,7 +24,7 @@ function Contact() {
             }
         } else {
             if(!e.target.value.length) {
-                setErrorMessage(`${e.target.name} is required!`)
+                setErrorMessage(`${e.target.name} is required! Please input a valid response.`)
             } else { 
                 setErrorMessage('');
             }
@@ -37,22 +37,25 @@ function Contact() {
     };
 
 
-
+    function handleSubmit(e) {
+        e.preventDefault();
+        alert( `I'm currently still working on the back-end for this application. Please feel free to reach out to me by using the links / icons below!`);
+    }
 
     return (
         <form id="contact-form" onSubmit= { handleSubmit }>
             <div className="form-container">
                 <div className="mb-3">
                     <label htmlFor="name" className="form-label px-2">Name</label>
-                    <input type="text" className="form-control" name="name" defaultValue={name} onBlue ={handleChange} />
+                    <input type="text" className="form-control" name="Your Name" defaultValue={name} onBlur ={handleChange} />
                 </div>
                 <div className="mb-3">
                     <label htmlFor="email" className="form-label px-2">Email</label>
-                    <input type="email" className="form-control" name="email" defaultValue={email} onBlue ={handleChange} />
+                    <input type="email" className="form-control" name="Your Email" defaultValue={email} onBlur ={handleChange} />
                 </div>
                 <div className="mb-3">
                     <label htmlFor="message" className="form-label px-2">Message</label>
-                    <textarea className="form-control" name="message" defaultValue={message} onBlue ={handleChange} rows="5"></textarea>
+                    <textarea className="form-control" name="A Message" defaultValue={message} onBlur ={handleChange} rows="5"></textarea>
                 </div>
                 {errorMessage && (
                     <div>
