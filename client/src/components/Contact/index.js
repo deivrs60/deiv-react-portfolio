@@ -43,6 +43,7 @@ function Contact() {
     }
 
     return (
+        <div id="contact-page">
         <form id="contact-form" onSubmit= { handleSubmit }>
             <div className="form-container">
                 <div className="mb-3">
@@ -65,6 +66,21 @@ function Contact() {
                 <button className="btn btn-primary" id="main-btn" type="submit">Submit</button>
             </div>
         </form>
+        <div>
+            <h3> While we wait for this Contact Form to be completed... </h3>
+
+            <p> Please feel free to reachout to me on by:
+                <br></br>
+                Sending me an email: <a href="mailto:info@runbuddy.io" id="myemail">david.reyes095@gmail.com</a>
+                <br></br>
+                Sending me a text, or giving me a call: (805).314.3433
+                <br></br>
+                - OR - 
+                <br></br>
+                By clicking on the icons below to get in touch!
+            </p>
+        </div>
+        </div>
         
     );
 }
