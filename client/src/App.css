@@ -120,6 +120,7 @@ footer h1 svg {
 .fe-experience li,
 .be-experience li {
   text-align: center;
+  color: black;
 }
 
 .form-container {
