@@ -47,15 +47,15 @@ function Contact() {
             <div className="form-container">
                 <div className="mb-3">
                     <label htmlFor="name" className="form-label px-2">Name</label>
-                    <input type="text" className="form-control" name="Your Name" defaultValue={name} onBlur ={handleChange} />
+                    <input type="text" className="form-control" name="Your Name" placeholder="Your Name" defaultValue={name} onBlur ={handleChange} />
                 </div>
                 <div className="mb-3">
                     <label htmlFor="email" className="form-label px-2">Email</label>
-                    <input type="email" className="form-control" name="Your Email" defaultValue={email} onBlur ={handleChange} />
+                    <input type="email" className="form-control" name="Your Email" placeholder="Your Email" defaultValue={email} onBlur ={handleChange} />
                 </div>
                 <div className="mb-3">
                     <label htmlFor="message" className="form-label px-2">Message</label>
-                    <textarea className="form-control" name="A Message" defaultValue={message} onBlur ={handleChange} rows="5"></textarea>
+                    <textarea className="form-control" name="A Message" placeholder="Please enter your message" defaultValue={message} onBlur ={handleChange} rows="5"></textarea>
                 </div>
                 {errorMessage && (
                     <div>

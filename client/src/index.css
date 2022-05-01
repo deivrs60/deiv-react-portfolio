@@ -137,7 +137,7 @@ input {
   padding: 0.25rem;
   border: 1px solid var(--dark);
   outline: none;
-  border-radius: 3px;
+  border-radius: 15px;
   transition: box-shadow 0.2s;
 }
 
