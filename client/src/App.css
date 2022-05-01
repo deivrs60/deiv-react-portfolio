@@ -123,9 +123,22 @@ footer h1 svg {
   justify-content: center;
 }
 
-input,
-form-control {  border-radius: 15px;
+input{  
+  border-radius: 15px;
 }
+
+#main-btn {
+  background-color:black;
+  color: #FFE697;
+  border-color: #FFE697;
+}
+
+#main-btn:hover {
+  background-color: #FFE697;
+  color: black;
+  border-color: black;
+}
+
 /* mobile responsiveness */
 
 @media screen and (max-width: 1400px) {
@@ -147,6 +160,8 @@ form-control {  border-radius: 15px;
     text-align: center;
   }
 }
+
+
 
 @media screen and (max-width: 1300px) {
   #nameimg {
