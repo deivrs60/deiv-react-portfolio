@@ -1,5 +1,5 @@
 import React from 'react';
-// import _image_ from "../../assets/"
+// import {avatar_image_} from "../../assets/images/"
 
 function About() {
 
