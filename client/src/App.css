@@ -99,6 +99,17 @@ html {
 }
 
 
+/* footer styling */
+footer h1 {
+  background: black;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+footer h1 svg {
+  color: #DE82FF;
+}
+
 /* mobile responsiveness for ABOUT SECTION */
 
 @media screen and (max-width: 1385px) {
