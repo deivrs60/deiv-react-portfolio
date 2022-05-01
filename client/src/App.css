@@ -256,8 +256,6 @@ input{
 }
 
 .overlay h2:hover, svg:hover {
-  border-bottom: ridge;
-  border-radius: 15px;
   color: #FFE697;
 }
 
