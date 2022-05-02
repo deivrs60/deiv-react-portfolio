@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/deiv-react-portfolio/static/css/main.0fe1ee19.css",
-    "main.js": "/deiv-react-portfolio/static/js/main.8a24935d.js",
+    "main.js": "/deiv-react-portfolio/static/js/main.1ad4de0b.js",
     "static/js/787.4814ada8.chunk.js": "/deiv-react-portfolio/static/js/787.4814ada8.chunk.js",
     "static/media/sunnyweekend.png": "/deiv-react-portfolio/static/media/sunnyweekend.2b94d9f4d0808d84dc0f.png",
     "static/media/onlypets.png": "/deiv-react-portfolio/static/media/onlypets.0a18094f12746d273dcb.png",
@@ -13,11 +13,11 @@
     "static/media/workdayscheduler.png": "/deiv-react-portfolio/static/media/workdayscheduler.33964b9d2ad5dc515099.png",
     "index.html": "/deiv-react-portfolio/index.html",
     "main.0fe1ee19.css.map": "/deiv-react-portfolio/static/css/main.0fe1ee19.css.map",
-    "main.8a24935d.js.map": "/deiv-react-portfolio/static/js/main.8a24935d.js.map",
+    "main.1ad4de0b.js.map": "/deiv-react-portfolio/static/js/main.1ad4de0b.js.map",
     "787.4814ada8.chunk.js.map": "/deiv-react-portfolio/static/js/787.4814ada8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0fe1ee19.css",
-    "static/js/main.8a24935d.js"
+    "static/js/main.1ad4de0b.js"
   ]
 }
