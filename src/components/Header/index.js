@@ -52,7 +52,7 @@ function Header() {
             <header className="flex-row px-1">
                 <div className="logo">
                     <h1 className="text-left" id="mainlogo">
-                    <a href="/" style={{textDecoration: 'none' }}>
+                    <a href="/https://deivrs60.github.io/deiv-react-portfolio/" style={{textDecoration: 'none' }}>
                         D E I V 
                     </a>   
                     </h1>
