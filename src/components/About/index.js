@@ -24,15 +24,21 @@ function About() {
                     I am an aspiring Full-Stack Engineer! 
                         <br></br>
                         <br></br>
-                    While I may not know much,
+                    I'm currently doing some studying on Algorithms!
                         <br></br>
-                    You can rest assured that I will
+                    Doing my best
                         <br></br>
-                    do my best to get the job done
+                    to learn every technology and language I can!
                         <br></br>
-                    whether it requires blood, 
+                    I am determined 
                         <br></br> 
-                    sweat, and tears (or not), to get the job done!
+                    to get my break into tech
+                        <br></br>
+                    and achieve my dreams
+                        <br></br>
+                    of contributing to something
+                        <br></br>
+                     that can possibly change the world!
                 </p>
             </section>
  
